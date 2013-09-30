@@ -3,6 +3,14 @@ package com.xjd.io.mock.in;
 import java.io.IOException;
 import java.io.InputStream;
 
+/**
+ * <pre>
+ * 模拟的给定大小的常量byte数组InputStream
+ * 读取时所有读取到的字节均来自byte数组(循环读取)
+ * </pre>
+ * @author  elvis.xu
+ * @version 2013-1-9 下午12:08:45
+ */
 public class ConstantBytesInputStream extends InputStream {
 	long size;
 	byte[] bytes;

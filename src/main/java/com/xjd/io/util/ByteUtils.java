@@ -2,6 +2,14 @@ package com.xjd.io.util;
 
 import java.io.IOException;
 
+/**
+ * <pre>
+ * byte与各种类型间的转换
+ * 
+ * </pre>
+ * @author  elvis.xu
+ * @version	2013-9-29 下午4:04:38
+ */
 public abstract class ByteUtils {
 	public static int LEN_BYTES_FOR_LONG = 8;
 	public static int LEN_BYTES_FOR_INT = 4;
